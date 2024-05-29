@@ -6,7 +6,169 @@
 		<link rel="stylesheet" data-th-href="@{/webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css}">
 		<title>TP04 - Bootstrap</title>
 	</head>
-	<body>		
+	<body>	
+		<!-- Header -->
+	    <header class="bg-primary text-white text-center py-4">
+	      <div class="container">
+	        <div class="row">
+	          <div class="col-4">
+	            <img
+	              src="img/logo-fi-unju.png"
+	              alt="Logo de la Facultad"
+	              style="max-width: 400px" />
+	          </div>
+	          <div class="col-8">
+	            <h1 class="mt-3">Facultad de Ingeniería - UNJu</h1>
+	            <p class="lead">Educación de calidad para el futuro</p>
+	          </div>
+	        </div>
+	      </div>
+	    </header>
+	    
+	    <!-- Navbar -->
+	    <nav class="navbar navbar-expand-md bg-body-secondary">
+	      <div class="container">
+	        <button
+	          class="navbar-toggler"
+	          type="button"
+	          data-bs-toggle="collapse"
+	          data-bs-target="#navbarNav"
+	          aria-controls="navbarNav"
+	          aria-expanded="false"
+	          aria-label="Toggle navigation">
+	          <span class="navbar-toggler-icon"></span>
+	        </button>
+	        <div class="collapse navbar-collapse" id="navbarNav">
+	          <ul class="navbar-nav">
+	            <li class="nav-item">
+	              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="#carreras">Carreras</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="#noticias">Noticias</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="#contacto">Contacto</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="#acerca-de">Acerca de</a>
+	            </li>
+	          </ul>
+	        </div>
+	      </div>
+	    </nav>
+	    
+	    <!-- Cuerpo -->
+	    <div class="container py-2">
+	      <div class="row">
+	        <!-- Aside -->
+	        <aside class="col-3">
+	          <div class="list-group">
+	            <a href="#biblioteca" class="list-group-item list-group-item-action">Biblioteca</a>
+	            <a href="#calendario-academico" class="list-group-item list-group-item-action"
+	              >Calendario Académico</a
+	            >
+	          </div>
+	        </aside>
+	
+	        <!-- Contenido Principal-->
+	        <main class="col-9">
+	          <div>
+	            <h1 class="text-primary">Conoce nuestra facultad</h1>
+	            <p>
+	              La Facultad de Ingeniería de la Universidad Nacional de Jujuy es una institución
+	              académica reconocida por su excelencia en la formación de profesionales en diversas
+	              disciplinas de la ingeniería. Ubicada en la provincia de Jujuy, Argentina, la facultad
+	              se destaca por su compromiso con la educación de calidad y la investigación aplicada
+	              para abordar los desafíos tecnológicos y sociales del siglo XXI. Ofrece una amplia
+	              variedad de carreras de pregrado, grado y posgrado en áreas como Ingeniería Química,
+	              Ingeniería Informática, Ingeniería Industrial, Analista Programador Universitario y
+	              más. Además de su enfoque académico, la facultad promueve el desarrollo integral de
+	              sus estudiantes, fomentando la participación en proyectos interdisciplinarios,
+	              actividades extracurriculares y prácticas profesionales en el sector público y
+	              privado. Con un cuerpo docente altamente capacitado y modernas instalaciones, la
+	              Facultad de Ingeniería de Jujuy se posiciona como un referente en la región,
+	              contribuyendo al avance científico, tecnológico y económico del país y de la comunidad
+	              en general.
+	            </p>
+	            <h2 class="text-primary">Noticias Recientes</h2>
+	            <div class="card mb-2">
+	              <div class="card-body">
+	                <a href="#" target="_blank" rel="noopener noreferrer" class="text-black">
+	                  <h5 class="card-title">Nueva carrera de Ingeniería Electromecanica</h5>
+	                </a>
+	                <p class="card-text">
+	                  La Facultad de Ingeniería anuncia la apertura de la carrera de Ingeniería en
+	                  Electromecanica a partir del próximo ciclo lectivo.
+	                </p>
+	              </div>
+	            </div>
+	            <div class="card">
+	              <div class="card-body">
+	                <a href="#" target="_blank" rel="noopener noreferrer" class="text-black">
+	                  <h5 class="card-title">Seminario Inteligencia Artificial aplicada</h5>
+	                </a>
+	                <p class="card-text">
+	                  La Facultad de Ingeniería llama a inscripciones para participar sel seminario
+	                  sobre Inteligencia Artificial aplicada.
+	                </p>
+	              </div>
+	            </div>
+	          </div>
+	        </main>
+	      </div>
+	    </div>
+    
+	    <!-- Footer -->
+	    <footer class="bg-primary">
+	      <div class="container">
+	        <div class="row justify-content-center">
+	          <div class="col-4 text-center">
+	            <h4 class="text-light">Contactanos</h4>
+	            <p class="footer-info text-white">
+	              Dirección: Ítalo Palanca Nº 10<br />
+	              Teléfono: (0388) 422-1576<br />
+	              Email: info@fi.unju.edu.ar
+	            </p>
+	          </div>
+	          <div class="col-4 text-center">
+	            <h4 class="text-light">Redes Sociales</h4>
+	            <a
+	              href="https://www.facebook.com/fiunju/"
+	              target="_blank"
+	              class="text-white mr-2 text-decoration-none pe-2 fs-2"
+	              ><i class="bi bi-facebook"></i>
+	            </a>
+	            <a
+	              href="https://www.youtube.com/channel/UCgS9XJlKKSYI1oJ4lIOo77A"
+	              target="_blank"
+	              class="text-white mr-2 text-decoration-none pe-2 fs-2"
+	              ><i class="bi bi-youtube"></i
+	            ></a>
+	            <a
+	              href="https://www.linkedin.com/school/facultad-de-ingenieria-unju"
+	              target="_blank"
+	              class="text-white mr-2 text-decoration-none pe-2 fs-2">
+	              <i class="bi bi-linkedin"></i>
+	            </a>
+	            <a
+	              href="https://www.instagram.com/fiunju/"
+	              target="_blank"
+	              class="text-white mr-2 text-decoration-none pe-2 fs-2">
+	              <i class="bi bi-instagram"></i>
+	            </a>
+	          </div>
+	          <div class="col-12 text-center text-light">
+	            <p class="footer-info">
+	              &copy; 2024 Facultad de Ingeniería - Universidad Nacional de Jujuy - Todos los
+	              derechos reservados
+	            </p>
+	          </div>
+	        </div>
+	      </div>
+	    </footer>
 		
 		<script type="text/javascript" data-th-ref="@{/webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js}"></script>
 	</body>
